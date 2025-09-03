@@ -22,6 +22,5 @@ public class ChromeTest {
         driver.get("https://www.selenium.dev/");
         Assert.assertEquals(driver.getTitle(),"Selenium");
         driver.quit();
-
     }
 }
